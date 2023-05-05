@@ -48,6 +48,7 @@ export const getUserPosts = async (req, res) => {
 /* UPDATE */
 export const likePost = async (req, res) => {
   try {
+    console.log(req.body);
     const { id } = req.params;
     const { userId } = req.body;
     const post = await Post.findById(id);

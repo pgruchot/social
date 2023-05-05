@@ -1,5 +1,5 @@
 import {
-  ManageAccountOutlined,
+  ManageAccountsOutlined,
   EditOutlined,
   LocationOnOutlined,
   WorkOutlineOutlined,
@@ -24,7 +24,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const getUser = async () => {
     const response = await fetch(`http://localhost:3001/users/${userId}`, {
       method: "GET",
-      headers: { Authorizaion: `Bearer ${token}` },
+      headers: { Authorization: `Bearer ${token}` },
     });
     const data = await response.json();
     setUser(data);
@@ -73,7 +73,7 @@ const UserWidget = ({ userId, picturePath }) => {
             <Typography color={medium}>{friends.length}</Typography>
           </Box>
         </FlexBetween>
-        <ManageAccountOutlined />
+        <ManageAccountsOutlined />
       </FlexBetween>
       <Divider />
       {/* SECOND ROW */}

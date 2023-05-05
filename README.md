@@ -44,8 +44,10 @@ The following image represents data schemas for objects stored in MongoDB set up
 
 ![dark-mode](home-dark.png)
 
-![home-mobile](home-mobile.png) ![menu](menu.png)
+### Other views
 
+[home-mobile](home-mobile.png)
+[menu](menu.png)
 [light-mode](home-light.png)
 [login](login.png)
 [registration](registration.png)

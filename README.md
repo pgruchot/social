@@ -42,12 +42,13 @@ The following image represents data schemas for objects stored in MongoDB set up
 
 ## Application Preview
 
+![dark-mode](home-dark.png)
+
+![home-mobile](home-mobile.png) ![menu](menu.png)
+
 [light-mode](home-light.png)
-[dark-mode](home-dark.png)
 [login](login.png)
 [registration](registration.png)
-[home-mobile](home-mobile.png)
-[menu](menu.png)
 
 ## Credits
 

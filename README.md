@@ -54,4 +54,4 @@ The following image represents data schemas for objects stored in MongoDB set up
 
 ## Credits
 
-Project based on EdRoh fullstack tutorial (https://www.youtube.com/@EdRohDev).
+Project based on [EdRoh](https://www.youtube.com/@EdRohDev) fullstack tutorial.
